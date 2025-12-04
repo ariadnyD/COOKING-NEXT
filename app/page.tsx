@@ -44,7 +44,7 @@ export default async function Home() {
 
             {/* Texto e Link */}
             <div className="p-4">
-              <h2 className="font-bold text-lg mb-2 truncate">{recipe.strMeal}</h2>
+              <h2 className="font-bold text-lg mb-2 truncate text-gray-700">{recipe.strMeal}</h2>
               <Link 
                 href={`/receita/${recipe.idMeal}`} 
                 className="block w-full text-center bg-orange-500 text-white py-2 rounded hover:bg-orange-600 transition-colors"
