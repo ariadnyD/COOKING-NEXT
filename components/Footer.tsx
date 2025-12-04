@@ -14,7 +14,7 @@ export default function Footer() {
             type="email" 
             name="email"
             placeholder="Seu melhor e-mail" 
-            className="p-2 rounded text-gray-900 flex-grow"
+            className="p-2 rounded text-white-900 flex-grow"
             required
           />
           <button type="submit" className="bg-orange-500 px-4 py-2 rounded font-bold hover:bg-orange-600">
