@@ -66,7 +66,13 @@ export default async function RecipeDetails({ params }: { params: { id: string }
             </span>
           </div>
           {/* Aqui entra nosso componente Client Side */}
-          <FavoriteBtn />
+          <FavoriteBtn 
+            recipe={{
+              id: recipe.idMeal,
+              name: recipe.strMeal,
+              image: recipe.strMealThumb
+            }} 
+          />
         </div>
         
         {/* Lista de Ingredientes */}
