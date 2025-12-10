@@ -70,7 +70,7 @@ export default async function RecipeDetails({ params }: { params: { id: string }
         </div>
         
         {/* Lista de Ingredientes */}
-        <h2 className="text-2xl font-bold mb-4">Ingredientes</h2>
+        <h2 className="text-gray-800 text-2xl font-bold mb-4">Ingredientes</h2>
         <ul className="list-disc pl-5 mb-8 space-y-2">
           {ingredients.map((item, index) => (
             <li key={index} className="text-gray-700">{item}</li>
@@ -78,7 +78,7 @@ export default async function RecipeDetails({ params }: { params: { id: string }
         </ul>
 
         {/* Modo de Preparo */}
-        <h2 className="text-2xl font-bold mb-4">Modo de Preparo</h2>
+        <h2 className="text-gray-800 text-2xl font-bold mb-4">Modo de Preparo</h2>
         <p className="text-gray-700 whitespace-pre-line leading-relaxed mb-8">
           {recipe.strInstructions}
         </p>

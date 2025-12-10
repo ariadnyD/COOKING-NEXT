@@ -8,6 +8,9 @@ export default function Navbar() {
           🍰 CookingNext
         </Link>
         <div className="space-x-4">
+          <Link href="/categorias" className="hover:text-orange-100 transition-colors">
+            Categorias
+          </Link>
           <Link href="/enviar-receita" className="hover:underline">
             Enviar Receita
           </Link>
